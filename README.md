@@ -1,0 +1,1 @@
+This is the VSCode config I use. Attached is an organized guide to my keybinds
