@@ -71,11 +71,12 @@
 		"activityBarBadge.background": "#8117c3",
 		"progressBar.background": "#8117c3",
 		"charts.lines": "#8117c3",
-		"editorInfo.foreground": "#8117c3",
+		"editorInfo.foreground": "#b845ff",
 		"editorLink.activeForeground": "#8117c3",
 		"inputOption.activeBorder": "#8117c3",
 		"inputValidation.infoBorder": "#8117c3",
 		"list.highlightForeground": "#cb91ef",
+		"statusBar.debuggingBackground": "#8117c3",
 
 		"tab.activeBorderTop": "#b845ff",
 		"tab.unfocusedActiveBorderTop": "#583d60",

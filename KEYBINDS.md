@@ -26,6 +26,7 @@
 |Shift|Select while navigating
 |Alt-E/R|Expand/shrink selection
 |Ctrl-C|Copy
+|Ctrl-X|Cut
 |Ctrl-V|Paste
 |Ctrl-A|Select All
 
