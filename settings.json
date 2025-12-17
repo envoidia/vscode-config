@@ -42,18 +42,33 @@
 	// #region Inlay Hints
 	"editor.inlayHints.fontFamily": "Koruri",
 	"editor.inlayHints.fontSize": 12,
+	"editor.inlayHints.maximumLength": 0,
+
+	"javascript.inlayHints.variableTypes.enabled": true,
+	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"javascript.inlayHints.parameterTypes.enabled": true,
+	"javascript.inlayHints.parameterNames.enabled": "all",
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+
+	"typescript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"typescript.inlayHints.parameterNames.enabled": "all",
+	"typescript.inlayHints.parameterTypes.enabled": true,
+	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"typescript.inlayHints.variableTypes.enabled": true,
+
 	"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
 	"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
-	"csharp.inlayHints.enableInlayHintsForTypes": true,
 	"dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
 	"dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
 	"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
-	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
 	"dotnet.inlayHints.enableInlayHintsForParameters": true,
 	"dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
-	"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
 	"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
-	"editor.inlayHints.maximumLength": 0,
+	"dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
+	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+	"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+	"csharp.inlayHints.enableInlayHintsForTypes": true,
 	// #endregion
 
 	// #region Custom colors
@@ -217,7 +232,10 @@
 			}
 		},
 		{
-			"scope": "variable.language",
+			"scope": [
+				"variable.language",
+				"meta.accessor.setter.cs"
+			],
 			"settings": {
 				"fontStyle": "italic"
 			}
