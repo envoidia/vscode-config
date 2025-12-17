@@ -33,6 +33,10 @@
 	"todo-tree.general.tags": ["todo", "temp"],
 	"todo-tree.highlights.defaultHighlight": { "background": "#0f6600"},
 
+	"colorize.languages": [
+		"csharp"
+	],
+
 	// Hot reload in editor doesn't work, use dotnet watch
 	//"csharp.experimental.debug.hotReload": true,
 	"csharp.debug.hotReloadOnSave": false,

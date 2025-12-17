@@ -5,6 +5,7 @@
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [Transparent Minimap](https://marketplace.visualstudio.com/items?itemName=BenRogersWPG.transparent-minimap)
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 
 ### Lang-specific
 - [.NET Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
