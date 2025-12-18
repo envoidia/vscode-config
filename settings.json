@@ -33,9 +33,8 @@
 	"todo-tree.general.tags": ["todo", "temp"],
 	"todo-tree.highlights.defaultHighlight": { "background": "#0f6600"},
 
-	"colorize.languages": [
-		"csharp"
-	],
+	"colorize.languages": ["csharp", "xml"],
+	"colorize.colorized_colors": ["HEXA"],
 
 	// Hot reload in editor doesn't work, use dotnet watch
 	//"csharp.experimental.debug.hotReload": true,
@@ -104,7 +103,7 @@
 		"button.hoverBackground": "#a020f0",
 
 		"textLink.activeForeground": "#b845ff",
-		"textLink.foreground": "#cf82ff",
+		"textLink.foreground": "#be8ff9",
 
 		"peekView.border": "#8a539b",
 		"peekViewEditor.background": "#191919",
@@ -238,7 +237,8 @@
 		{
 			"scope": [
 				"variable.language",
-				"meta.accessor.setter.cs"
+				"variable.other.value.cs",
+				"variable.other.field.cs"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -253,7 +253,8 @@
 			"field": "#b5c0ff",
     		"variable": "#ed94bb",
 			"constant": "#4ab0e7",
-			"preprocessorText": "#da86d1"
+			"preprocessorText": "#da86d1",
+			"event": "#DCDCAA"
   		}
 	}
 	// #endregion
