@@ -6,6 +6,7 @@
 - [Transparent Minimap](https://marketplace.visualstudio.com/items?itemName=BenRogersWPG.transparent-minimap)
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
+    - This extension can be laggy (restarting helps), so I usually disable it when I'm not actively using it
 
 ### Lang-specific
 - [.NET Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)

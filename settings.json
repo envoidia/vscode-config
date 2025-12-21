@@ -95,6 +95,7 @@
 		"inputValidation.infoBorder": "#8117c3",
 		"list.highlightForeground": "#cb91ef",
 		"statusBar.debuggingBackground": "#8117c3",
+		"debugConsole.infoForeground": "#c3c3c3",
 
 		"tab.activeBorderTop": "#b845ff",
 		"tab.unfocusedActiveBorderTop": "#583d60",
