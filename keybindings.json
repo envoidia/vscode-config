@@ -466,12 +466,17 @@
         "when": "inSearchEditor && searchInputBoxFocus"
     },
     {
-        "key": "ctrl+k backspace",
+        "key": "ctrl+shift+backspace",
         "command": "deleteAllLeft"
     },
     {
-        "key": "ctrl+k delete",
+        "key": "ctrl+shift+delete",
         "command": "deleteAllRight"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "-search.searchEditor.action.deleteFileResults",
+        "when": "inSearchEditor"
     },
     {
         "key": "ctrl+shift+u",

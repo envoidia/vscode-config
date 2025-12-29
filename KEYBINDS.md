@@ -35,8 +35,8 @@
 |-|-|
 |BkSp|Delete left
 |Del|Delete right
-|Ctrl-K BkSp|Delete all left
-|Ctrl-K Del|Delete all right
+|Ctrl-Shift-BkSp|Delete all left
+|Ctrl-Shift-Del|Delete all right
 |Ctrl-Alt-BkSp|Delete brackets
 
 ### Lines
