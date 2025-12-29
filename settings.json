@@ -1,6 +1,7 @@
 {
 	// #region Basic Settings
 	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
     "files.autoSave": "afterDelay",
 
     "editor.defaultFormatter": "ms-dotnettools.csdevkit",
@@ -35,6 +36,9 @@
 
 	"colorize.languages": ["csharp", "xml"],
 	"colorize.colorized_colors": ["HEXA"],
+
+	"dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
+	"dotnet.backgroundAnalysis.compilerDiagnosticsScope": "fullSolution",
 
 	// Hot reload in editor doesn't work, use dotnet watch
 	//"csharp.experimental.debug.hotReload": true,
