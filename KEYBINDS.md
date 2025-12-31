@@ -43,7 +43,7 @@
 |||
 |-|-|
 |Alt-Up/Down|Move line
-|Ctrl-Shift-Alt-Up/Down|Duplicate line
+|Ctrl-Alt-Up/Down|Duplicate line
 |Ctrl-L|Select line
 |Ctrl-/|Comment/uncomment line/selection
 |Ctrk-Shift-K|Delete line
