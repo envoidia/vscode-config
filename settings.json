@@ -10,7 +10,11 @@
 	"editor.language.colorizedBracketPairs": [["(", ")"], ["[", "]"], ["{", "}"]],
 
 	"workbench.settings.showAISearchToggle": false,
+
     "chat.disableAIFeatures": true,
+	"chat.sendElementsToChat.attachCSS": false,
+	"chat.sendElementsToChat.attachImages": false,
+	"chat.sendElementsToChat.enabled": false,
 
 	"editor.wordWrap": "wordWrapColumn",
 	"editor.wordWrapColumn": 999,
@@ -43,10 +47,6 @@
 	// Hot reload in editor doesn't work, use dotnet watch
 	//"csharp.experimental.debug.hotReload": true,
 	"csharp.debug.hotReloadOnSave": false,
-
-	// #endregion
-	
-	// #region Inlay Hints
 	"editor.inlayHints.fontFamily": "Koruri",
 	"editor.inlayHints.fontSize": 12,
 	"editor.inlayHints.maximumLength": 0,
