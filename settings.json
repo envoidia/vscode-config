@@ -9,44 +9,52 @@
 
 	"editor.language.colorizedBracketPairs": [["(", ")"], ["[", "]"], ["{", "}"]],
 
-	"workbench.settings.showAISearchToggle": false,
-
-    "chat.disableAIFeatures": true,
-	"chat.sendElementsToChat.attachCSS": false,
-	"chat.sendElementsToChat.attachImages": false,
-	"chat.sendElementsToChat.enabled": false,
-
 	"editor.wordWrap": "wordWrapColumn",
 	"editor.wordWrapColumn": 999,
-	"editor.wrapOnEscapedLineFeeds": true,
+	"editor.codeLens": false,
 	
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-
+	
     "editor.foldingImportsByDefault": true,
-
+	
 	"editor.minimap.showSlider": "always",
 	"editor.minimap.markSectionHeaderRegex": "#region (?<label>[^-]*)",
+	"editor.minimap.size": "fill",
 	"TransparentMinimap.transparencyLevel": "22",
 
-	"editor.rulers": [{ "column": 120, "color": "#404040" }],
-	"editor.codeLens": false,
+	"editor.rulers": [
+		{
+			"column": 120,
+			"color": "#404040"
+		}
+	],
 
-	"chat.commandCenter.enabled": false,
 	"workbench.editor.splitInGroupLayout": "vertical",
-
+	
 	"todo-tree.general.tags": ["todo", "temp"],
 	"todo-tree.highlights.defaultHighlight": { "background": "#0f6600"},
-
+	
 	"colorize.languages": ["csharp", "xml"],
 	"colorize.colorized_colors": ["HEXA"],
-
+	
 	"dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
 	"dotnet.backgroundAnalysis.compilerDiagnosticsScope": "fullSolution",
-
+	
 	// Hot reload in editor doesn't work, use dotnet watch
 	//"csharp.experimental.debug.hotReload": true,
 	"csharp.debug.hotReloadOnSave": false,
+	
+	// #region AI
+	"workbench.settings.showAISearchToggle": false,
+    "chat.disableAIFeatures": true,
+	"chat.commandCenter.enabled": false,
+	"chat.sendElementsToChat.attachCSS": false,
+	"chat.sendElementsToChat.attachImages": false,
+	"chat.sendElementsToChat.enabled": false,
+	// #endregion
+
+	// #region Inlay Hints
 	"editor.inlayHints.fontFamily": "Koruri",
 	"editor.inlayHints.fontSize": 12,
 	"editor.inlayHints.maximumLength": 0,
@@ -247,6 +255,14 @@
 			],
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#4ab0e7"
 			}
 		}
 	]},
