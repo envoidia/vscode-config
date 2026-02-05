@@ -11,10 +11,12 @@
 
 	"editor.wordWrap": "wordWrapColumn",
 	"editor.wordWrapColumn": 999,
+	"editor.wrapOnEscapedLineFeeds": true,
 	"editor.codeLens": false,
 	
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
+	"git.openRepositoryInParentFolders": "never",
 	
     "editor.foldingImportsByDefault": true,
 	
@@ -31,6 +33,15 @@
 	],
 
 	"workbench.editor.splitInGroupLayout": "vertical",
+
+	"[plaintext]": {
+    	"editor.wordWrap": "on"
+	},
+
+	"terminal.integrated.cursorStyleInactive": "line",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.gpuAcceleration": "on",
 	
 	"todo-tree.general.tags": ["todo", "temp"],
 	"todo-tree.highlights.defaultHighlight": { "background": "#0f6600"},
