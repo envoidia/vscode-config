@@ -52,7 +52,7 @@ Ctrl-Tab | Switch between tabs
 Ctrl-Shift-T | Reopen last closed tab
 Ctrl-PgUp/PgDown | To prev/next tab
 Ctrl-Shift-PgUp/PgDown | Move tab left/right
-Alt-{Num} | To {Num} tab
+Alt-{Num} | To {Num} tab. Doesn't work with 1
 Ctrl-N | New file
 Ctrl-P | Open file in project
 Ctrl-O | Open file
@@ -121,7 +121,7 @@ Ctrl-K Ctrl-T | Todo tree
 
 | Bottom Panel || 
 -|-
-Shift-F12 | Toggle bottom panel
+Alt-1 | Toggle bottom panel
 Alt-P | Problems
 Alt-O | Output
 Alt-G | Debug
