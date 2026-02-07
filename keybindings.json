@@ -559,12 +559,20 @@
         "when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatmode)$/"
     },
     {
-        "key": "ctrl+f1",
+        "key": "alt+1",
         "command": "workbench.action.togglePanel"
     },
     {
         "key": "ctrl+j",
         "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.action.openEditorAtIndex1"
     }
     // #endregion
 ]
