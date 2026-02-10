@@ -42,6 +42,12 @@
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.defaultProfile.linux": "zsh",
 	"terminal.integrated.gpuAcceleration": "on",
+
+	"security.workspace.trust.untrustedFiles": "open",
+	"telemetry.feedback.enabled": false,
+	"telemetry.editStats.enabled": false,
+	"telemetry.telemetryLevel": "off",
+	"dotnetAcquisitionExtension.enableTelemetry": false,
 	
 	"todo-tree.general.tags": ["todo", "temp"],
 	"todo-tree.highlights.defaultHighlight": { "background": "#0f6600"},
@@ -289,5 +295,5 @@
 			"event": "#DCDCAA"
   		}
 	}
+	// #endregion
 }
-	
