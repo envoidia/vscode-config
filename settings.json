@@ -40,7 +40,7 @@
 
 	"terminal.integrated.cursorStyleInactive": "line",
 	"terminal.integrated.cursorStyle": "line",
-	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.defaultProfile.linux": "fish",
 	"terminal.integrated.gpuAcceleration": "on",
 
 	"security.workspace.trust.untrustedFiles": "open",
