@@ -1,1 +1,1 @@
-This is the VSCode config I use. Attached is an organized guide to my keybinds
+[Moved](https://github.com/envoidia/misc-config/tree/main/desktop/.config/Code/User)
